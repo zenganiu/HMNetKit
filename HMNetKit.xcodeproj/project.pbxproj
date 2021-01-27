@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		397FE102248206CC0070AE8E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 397FE101248206CB0070AE8E /* README.md */; };
+		397FE104248207170070AE8E /* HMNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397FE103248207170070AE8E /* HMNet.swift */; };
+		39C43F91244214C300BBCEF7 /* HMNetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C43F87244214C300BBCEF7 /* HMNetKit.framework */; };
+		39C43F96244214C300BBCEF7 /* HMNetKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C43F95244214C300BBCEF7 /* HMNetKitTests.swift */; };
+		39C43F98244214C300BBCEF7 /* HMNetKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C43F8A244214C300BBCEF7 /* HMNetKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4136C7B224E0FC7A002CED5B /* HMNetEnv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136C7B124E0FC7A002CED5B /* HMNetEnv.swift */; };
+		41C1A6C12463BD1600820C67 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C1A6C02463BD1600820C67 /* Moya.framework */; };
+		41C1A6C22463BD1600820C67 /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41C1A6C02463BD1600820C67 /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		41C1A6C52463BD1D00820C67 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C1A6C42463BD1D00820C67 /* Alamofire.framework */; };
+		41C1A6C62463BD1D00820C67 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41C1A6C42463BD1D00820C67 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		41C1A6C82463BD2600820C67 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C1A6C72463BD2600820C67 /* SwiftyJSON.framework */; };
+		41C1A6C92463BD2600820C67 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41C1A6C72463BD2600820C67 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		41C1A6CB2463BD8C00820C67 /* HMNetKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 41C1A6CA2463BD8C00820C67 /* HMNetKit.podspec */; };
+		41C1A6D02463BF5E00820C67 /* Error+AF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C1A6CF2463BF5E00820C67 /* Error+AF.swift */; };
+		41C1A6D22463BF8E00820C67 /* Error+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C1A6D12463BF8E00820C67 /* Error+URL.swift */; };
+		41C1A6D42463BFB100820C67 /* Error+Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C1A6D32463BFB100820C67 /* Error+Moya.swift */; };
+		41C1A6D62463C02000820C67 /* HMError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C1A6D52463C02000820C67 /* HMError.swift */; };
+		41C1A6D82463C4CB00820C67 /* Ex+URLCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C1A6D72463C4CB00820C67 /* Ex+URLCache.swift */; };
+		41C1A6DA2463C64900820C67 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C1A6D92463C64900820C67 /* Helper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39C43F92244214C300BBCEF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C43F7E244214C300BBCEF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39C43F86244214C300BBCEF7;
+			remoteInfo = HMNetKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		41C1A6C32463BD1600820C67 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				41C1A6C22463BD1600820C67 /* Moya.framework in Embed Frameworks */,
+				41C1A6C62463BD1D00820C67 /* Alamofire.framework in Embed Frameworks */,
+				41C1A6C92463BD2600820C67 /* SwiftyJSON.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		397FE101248206CB0070AE8E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		397FE103248207170070AE8E /* HMNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMNet.swift; sourceTree = "<group>"; };
+		39C43F87244214C300BBCEF7 /* HMNetKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMNetKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C43F8A244214C300BBCEF7 /* HMNetKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMNetKit.h; sourceTree = "<group>"; };
+		39C43F8B244214C300BBCEF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C43F90244214C300BBCEF7 /* HMNetKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMNetKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C43F95244214C300BBCEF7 /* HMNetKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMNetKitTests.swift; sourceTree = "<group>"; };
+		39C43F97244214C300BBCEF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4136C7B124E0FC7A002CED5B /* HMNetEnv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMNetEnv.swift; sourceTree = "<group>"; };
+		41C1A6C02463BD1600820C67 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		41C1A6C42463BD1D00820C67 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		41C1A6C72463BD2600820C67 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		41C1A6CA2463BD8C00820C67 /* HMNetKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HMNetKit.podspec; sourceTree = "<group>"; };
+		41C1A6CF2463BF5E00820C67 /* Error+AF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+AF.swift"; sourceTree = "<group>"; };
+		41C1A6D12463BF8E00820C67 /* Error+URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+URL.swift"; sourceTree = "<group>"; };
+		41C1A6D32463BFB100820C67 /* Error+Moya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+Moya.swift"; sourceTree = "<group>"; };
+		41C1A6D52463C02000820C67 /* HMError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMError.swift; sourceTree = "<group>"; };
+		41C1A6D72463C4CB00820C67 /* Ex+URLCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+URLCache.swift"; sourceTree = "<group>"; };
+		41C1A6D92463C64900820C67 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39C43F84244214C300BBCEF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C1A6C12463BD1600820C67 /* Moya.framework in Frameworks */,
+				41C1A6C52463BD1D00820C67 /* Alamofire.framework in Frameworks */,
+				41C1A6C82463BD2600820C67 /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C43F8D244214C300BBCEF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C43F91244214C300BBCEF7 /* HMNetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39C43F7D244214C300BBCEF7 = {
+			isa = PBXGroup;
+			children = (
+				397FE101248206CB0070AE8E /* README.md */,
+				41C1A6CA2463BD8C00820C67 /* HMNetKit.podspec */,
+				41C1A6CE2463BF4400820C67 /* Sources */,
+				39C43F89244214C300BBCEF7 /* HMNetKit */,
+				39C43F94244214C300BBCEF7 /* HMNetKitTests */,
+				39C43F88244214C300BBCEF7 /* Products */,
+				41C1A6BF2463BD1600820C67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		39C43F88244214C300BBCEF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39C43F87244214C300BBCEF7 /* HMNetKit.framework */,
+				39C43F90244214C300BBCEF7 /* HMNetKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39C43F89244214C300BBCEF7 /* HMNetKit */ = {
+			isa = PBXGroup;
+			children = (
+				39C43F8A244214C300BBCEF7 /* HMNetKit.h */,
+				39C43F8B244214C300BBCEF7 /* Info.plist */,
+			);
+			path = HMNetKit;
+			sourceTree = "<group>";
+		};
+		39C43F94244214C300BBCEF7 /* HMNetKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				39C43F95244214C300BBCEF7 /* HMNetKitTests.swift */,
+				39C43F97244214C300BBCEF7 /* Info.plist */,
+			);
+			path = HMNetKitTests;
+			sourceTree = "<group>";
+		};
+		41C1A6BF2463BD1600820C67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41C1A6C72463BD2600820C67 /* SwiftyJSON.framework */,
+				41C1A6C42463BD1D00820C67 /* Alamofire.framework */,
+				41C1A6C02463BD1600820C67 /* Moya.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41C1A6CE2463BF4400820C67 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				397FE103248207170070AE8E /* HMNet.swift */,
+				41C1A6D92463C64900820C67 /* Helper.swift */,
+				41C1A6D52463C02000820C67 /* HMError.swift */,
+				41C1A6CF2463BF5E00820C67 /* Error+AF.swift */,
+				41C1A6D12463BF8E00820C67 /* Error+URL.swift */,
+				41C1A6D32463BFB100820C67 /* Error+Moya.swift */,
+				41C1A6D72463C4CB00820C67 /* Ex+URLCache.swift */,
+				4136C7B124E0FC7A002CED5B /* HMNetEnv.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39C43F82244214C300BBCEF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C43F98244214C300BBCEF7 /* HMNetKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		39C43F86244214C300BBCEF7 /* HMNetKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C43F9B244214C300BBCEF7 /* Build configuration list for PBXNativeTarget "HMNetKit" */;
+			buildPhases = (
+				39C43F82244214C300BBCEF7 /* Headers */,
+				39C43F83244214C300BBCEF7 /* Sources */,
+				39C43F84244214C300BBCEF7 /* Frameworks */,
+				39C43F85244214C300BBCEF7 /* Resources */,
+				41C1A6C32463BD1600820C67 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMNetKit;
+			productName = HMNetKit;
+			productReference = 39C43F87244214C300BBCEF7 /* HMNetKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		39C43F8F244214C300BBCEF7 /* HMNetKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C43F9E244214C300BBCEF7 /* Build configuration list for PBXNativeTarget "HMNetKitTests" */;
+			buildPhases = (
+				39C43F8C244214C300BBCEF7 /* Sources */,
+				39C43F8D244214C300BBCEF7 /* Frameworks */,
+				39C43F8E244214C300BBCEF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39C43F93244214C300BBCEF7 /* PBXTargetDependency */,
+			);
+			name = HMNetKitTests;
+			productName = HMNetKitTests;
+			productReference = 39C43F90244214C300BBCEF7 /* HMNetKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39C43F7E244214C300BBCEF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = huimin;
+				TargetAttributes = {
+					39C43F86244214C300BBCEF7 = {
+						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
+					};
+					39C43F8F244214C300BBCEF7 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 39C43F81244214C300BBCEF7 /* Build configuration list for PBXProject "HMNetKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39C43F7D244214C300BBCEF7;
+			productRefGroup = 39C43F88244214C300BBCEF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39C43F86244214C300BBCEF7 /* HMNetKit */,
+				39C43F8F244214C300BBCEF7 /* HMNetKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39C43F85244214C300BBCEF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397FE102248206CC0070AE8E /* README.md in Resources */,
+				41C1A6CB2463BD8C00820C67 /* HMNetKit.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C43F8E244214C300BBCEF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39C43F83244214C300BBCEF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C1A6D22463BF8E00820C67 /* Error+URL.swift in Sources */,
+				41C1A6D82463C4CB00820C67 /* Ex+URLCache.swift in Sources */,
+				397FE104248207170070AE8E /* HMNet.swift in Sources */,
+				41C1A6D02463BF5E00820C67 /* Error+AF.swift in Sources */,
+				41C1A6D42463BFB100820C67 /* Error+Moya.swift in Sources */,
+				41C1A6D62463C02000820C67 /* HMError.swift in Sources */,
+				4136C7B224E0FC7A002CED5B /* HMNetEnv.swift in Sources */,
+				41C1A6DA2463C64900820C67 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C43F8C244214C300BBCEF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C43F96244214C300BBCEF7 /* HMNetKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39C43F93244214C300BBCEF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39C43F86244214C300BBCEF7 /* HMNetKit */;
+			targetProxy = 39C43F92244214C300BBCEF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39C43F99244214C300BBCEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39C43F9A244214C300BBCEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39C43F9C244214C300BBCEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TWM74K5JCX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = HMNetKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuiMin.Component.HMNetKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39C43F9D244214C300BBCEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TWM74K5JCX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = HMNetKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuiMin.Component.HMNetKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39C43F9F244214C300BBCEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TWM74K5JCX;
+				INFOPLIST_FILE = HMNetKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuiMin.HMNetKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39C43FA0244214C300BBCEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TWM74K5JCX;
+				INFOPLIST_FILE = HMNetKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuiMin.HMNetKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39C43F81244214C300BBCEF7 /* Build configuration list for PBXProject "HMNetKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C43F99244214C300BBCEF7 /* Debug */,
+				39C43F9A244214C300BBCEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C43F9B244214C300BBCEF7 /* Build configuration list for PBXNativeTarget "HMNetKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C43F9C244214C300BBCEF7 /* Debug */,
+				39C43F9D244214C300BBCEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C43F9E244214C300BBCEF7 /* Build configuration list for PBXNativeTarget "HMNetKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C43F9F244214C300BBCEF7 /* Debug */,
+				39C43FA0244214C300BBCEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39C43F7E244214C300BBCEF7 /* Project object */;
+}
