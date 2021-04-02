@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files = "Sources/**/*.swift"
   
-  spec.dependency "SwiftyJSON", "5.0.0"
-  spec.dependency 'Moya', '~> 14.0'
+  spec.dependency "SwiftyJSON", "5.0.1"
+  spec.dependency 'Moya', '14.0.0'
   
 end

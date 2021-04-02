@@ -67,7 +67,7 @@
 		41C1A6C02463BD1600820C67 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
 		41C1A6C42463BD1D00820C67 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		41C1A6C72463BD2600820C67 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
-		41C1A6CA2463BD8C00820C67 /* HMNetKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HMNetKit.podspec; sourceTree = "<group>"; };
+		41C1A6CA2463BD8C00820C67 /* HMNetKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HMNetKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		41C1A6CF2463BF5E00820C67 /* Error+AF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+AF.swift"; sourceTree = "<group>"; };
 		41C1A6D12463BF8E00820C67 /* Error+URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+URL.swift"; sourceTree = "<group>"; };
 		41C1A6D32463BFB100820C67 /* Error+Moya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+Moya.swift"; sourceTree = "<group>"; };
